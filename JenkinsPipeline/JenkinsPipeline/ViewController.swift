@@ -42,7 +42,6 @@ class ViewController: UIViewController {
         } receiveValue: { values in
             print(values)
         }
-
 //        viewmodel().getNames { result in
 //            switch result {
 //            case .success(let names):
