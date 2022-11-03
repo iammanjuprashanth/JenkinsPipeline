@@ -43,7 +43,6 @@ class ViewController: UIViewController {
             print(values)
         }
         
-
 //        viewmodel().getNames { result in
 //            switch result {
 //            case .success(let names):
