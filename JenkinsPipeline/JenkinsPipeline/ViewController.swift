@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import AirthmeticOperation
 import Combine
 
 class ViewController: UIViewController {
@@ -54,10 +53,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTapOnAdd(_ sender: Any) {
-        let operation = Addition()
         let num1: Int = Int(textfield1.text!)!
         let num2: Int = Int(textfield2.text!)!
-        label.text = "\(operation.add(number1: num1, number2: num2))"
+        label.text = "\(num1 + num2)"
     }
 }
 

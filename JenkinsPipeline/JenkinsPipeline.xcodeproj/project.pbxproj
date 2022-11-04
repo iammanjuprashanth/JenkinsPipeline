@@ -15,14 +15,6 @@
 		680820AD266FD12100A6EA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680820AB266FD12100A6EA08 /* LaunchScreen.storyboard */; };
 		680820B8266FD12100A6EA08 /* JenkinsPipelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680820B7266FD12100A6EA08 /* JenkinsPipelineTests.swift */; };
 		680820C3266FD12100A6EA08 /* JenkinsPipelineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680820C2266FD12100A6EA08 /* JenkinsPipelineUITests.swift */; };
-		682F79E328B950A5005612AC /* AirthmeticOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D526B128B9459400C5FE25 /* AirthmeticOperation.framework */; };
-		682F79E428B950A5005612AC /* AirthmeticOperation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68D526B128B9459400C5FE25 /* AirthmeticOperation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		68489AC528C0F9EF000766C5 /* ViewmodelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68489AC428C0F9EF000766C5 /* ViewmodelTests.swift */; };
-		68D526B528B9459400C5FE25 /* AirthmeticOperation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 68D526B428B9459400C5FE25 /* AirthmeticOperation.docc */; };
-		68D526BB28B9459400C5FE25 /* AirthmeticOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D526B128B9459400C5FE25 /* AirthmeticOperation.framework */; };
-		68D526C228B9459400C5FE25 /* AirthmeticOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D526C128B9459400C5FE25 /* AirthmeticOperationTests.swift */; };
-		68D526C328B9459400C5FE25 /* AirthmeticOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D526B328B9459400C5FE25 /* AirthmeticOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68D526D028B9463200C5FE25 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D526CF28B9463200C5FE25 /* Addition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,49 +32,7 @@
 			remoteGlobalIDString = 6808209C266FD12000A6EA08;
 			remoteInfo = JenkinsPipeline;
 		};
-		682F79E028B9505C005612AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68082095266FD12000A6EA08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68D526B028B9459400C5FE25;
-			remoteInfo = AirthmeticOperation;
-		};
-		682F79E528B950A5005612AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68082095266FD12000A6EA08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68D526B028B9459400C5FE25;
-			remoteInfo = AirthmeticOperation;
-		};
-		68D526BC28B9459400C5FE25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68082095266FD12000A6EA08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68D526B028B9459400C5FE25;
-			remoteInfo = AirthmeticOperation;
-		};
-		68D526BE28B9459400C5FE25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 68082095266FD12000A6EA08 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6808209C266FD12000A6EA08;
-			remoteInfo = JenkinsPipeline;
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		682F79E728B950A5005612AC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				682F79E428B950A5005612AC /* AirthmeticOperation.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6808209D266FD12000A6EA08 /* JenkinsPipeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsPipeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,13 +49,6 @@
 		680820BE266FD12100A6EA08 /* JenkinsPipelineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsPipelineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680820C2266FD12100A6EA08 /* JenkinsPipelineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkinsPipelineUITests.swift; sourceTree = "<group>"; };
 		680820C4266FD12100A6EA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68489AC428C0F9EF000766C5 /* ViewmodelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewmodelTests.swift; sourceTree = "<group>"; };
-		68D526B128B9459400C5FE25 /* AirthmeticOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AirthmeticOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68D526B328B9459400C5FE25 /* AirthmeticOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirthmeticOperation.h; sourceTree = "<group>"; };
-		68D526B428B9459400C5FE25 /* AirthmeticOperation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AirthmeticOperation.docc; sourceTree = "<group>"; };
-		68D526BA28B9459400C5FE25 /* AirthmeticOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirthmeticOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		68D526C128B9459400C5FE25 /* AirthmeticOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirthmeticOperationTests.swift; sourceTree = "<group>"; };
-		68D526CF28B9463200C5FE25 /* Addition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682F79E328B950A5005612AC /* AirthmeticOperation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,21 +73,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68D526AE28B9459400C5FE25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68D526B728B9459400C5FE25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68D526BB28B9459400C5FE25 /* AirthmeticOperation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -155,8 +82,6 @@
 				6808209F266FD12000A6EA08 /* JenkinsPipeline */,
 				680820B6266FD12100A6EA08 /* JenkinsPipelineTests */,
 				680820C1266FD12100A6EA08 /* JenkinsPipelineUITests */,
-				68D526B228B9459400C5FE25 /* AirthmeticOperation */,
-				68D526C028B9459400C5FE25 /* AirthmeticOperationTests */,
 				6808209E266FD12000A6EA08 /* Products */,
 				68D526A728B9023C00C5FE25 /* Frameworks */,
 			);
@@ -168,8 +93,6 @@
 				6808209D266FD12000A6EA08 /* JenkinsPipeline.app */,
 				680820B3266FD12100A6EA08 /* JenkinsPipelineTests.xctest */,
 				680820BE266FD12100A6EA08 /* JenkinsPipelineUITests.xctest */,
-				68D526B128B9459400C5FE25 /* AirthmeticOperation.framework */,
-				68D526BA28B9459400C5FE25 /* AirthmeticOperationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,37 +136,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		68D526B228B9459400C5FE25 /* AirthmeticOperation */ = {
-			isa = PBXGroup;
-			children = (
-				68D526B328B9459400C5FE25 /* AirthmeticOperation.h */,
-				68D526B428B9459400C5FE25 /* AirthmeticOperation.docc */,
-				68D526CF28B9463200C5FE25 /* Addition.swift */,
-			);
-			path = AirthmeticOperation;
-			sourceTree = "<group>";
-		};
-		68D526C028B9459400C5FE25 /* AirthmeticOperationTests */ = {
-			isa = PBXGroup;
-			children = (
-				68D526C128B9459400C5FE25 /* AirthmeticOperationTests.swift */,
-				68489AC428C0F9EF000766C5 /* ViewmodelTests.swift */,
-			);
-			path = AirthmeticOperationTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		68D526AC28B9459400C5FE25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68D526C328B9459400C5FE25 /* AirthmeticOperation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6808209C266FD12000A6EA08 /* JenkinsPipeline */ = {
@@ -253,13 +146,10 @@
 				68082099266FD12000A6EA08 /* Sources */,
 				6808209A266FD12000A6EA08 /* Frameworks */,
 				6808209B266FD12000A6EA08 /* Resources */,
-				682F79E728B950A5005612AC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				682F79E128B9505C005612AC /* PBXTargetDependency */,
-				682F79E628B950A5005612AC /* PBXTargetDependency */,
 			);
 			name = JenkinsPipeline;
 			productName = JenkinsPipeline;
@@ -302,43 +192,6 @@
 			productReference = 680820BE266FD12100A6EA08 /* JenkinsPipelineUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		68D526B028B9459400C5FE25 /* AirthmeticOperation */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68D526C828B9459400C5FE25 /* Build configuration list for PBXNativeTarget "AirthmeticOperation" */;
-			buildPhases = (
-				68D526AC28B9459400C5FE25 /* Headers */,
-				68D526AD28B9459400C5FE25 /* Sources */,
-				68D526AE28B9459400C5FE25 /* Frameworks */,
-				68D526AF28B9459400C5FE25 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AirthmeticOperation;
-			productName = AirthmeticOperation;
-			productReference = 68D526B128B9459400C5FE25 /* AirthmeticOperation.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		68D526B928B9459400C5FE25 /* AirthmeticOperationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68D526CC28B9459400C5FE25 /* Build configuration list for PBXNativeTarget "AirthmeticOperationTests" */;
-			buildPhases = (
-				68D526B628B9459400C5FE25 /* Sources */,
-				68D526B728B9459400C5FE25 /* Frameworks */,
-				68D526B828B9459400C5FE25 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				68D526BD28B9459400C5FE25 /* PBXTargetDependency */,
-				68D526BF28B9459400C5FE25 /* PBXTargetDependency */,
-			);
-			name = AirthmeticOperationTests;
-			productName = AirthmeticOperationTests;
-			productReference = 68D526BA28B9459400C5FE25 /* AirthmeticOperationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -359,13 +212,6 @@
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 6808209C266FD12000A6EA08;
 					};
-					68D526B028B9459400C5FE25 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					68D526B928B9459400C5FE25 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 6808209C266FD12000A6EA08;
-					};
 				};
 			};
 			buildConfigurationList = 68082098266FD12000A6EA08 /* Build configuration list for PBXProject "JenkinsPipeline" */;
@@ -384,8 +230,6 @@
 				6808209C266FD12000A6EA08 /* JenkinsPipeline */,
 				680820B2266FD12100A6EA08 /* JenkinsPipelineTests */,
 				680820BD266FD12100A6EA08 /* JenkinsPipelineUITests */,
-				68D526B028B9459400C5FE25 /* AirthmeticOperation */,
-				68D526B928B9459400C5FE25 /* AirthmeticOperationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -409,20 +253,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		680820BC266FD12100A6EA08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68D526AF28B9459400C5FE25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68D526B828B9459400C5FE25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,24 +288,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68D526AD28B9459400C5FE25 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68D526B528B9459400C5FE25 /* AirthmeticOperation.docc in Sources */,
-				68D526D028B9463200C5FE25 /* Addition.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68D526B628B9459400C5FE25 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68489AC528C0F9EF000766C5 /* ViewmodelTests.swift in Sources */,
-				68D526C228B9459400C5FE25 /* AirthmeticOperationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -488,26 +300,6 @@
 			isa = PBXTargetDependency;
 			target = 6808209C266FD12000A6EA08 /* JenkinsPipeline */;
 			targetProxy = 680820BF266FD12100A6EA08 /* PBXContainerItemProxy */;
-		};
-		682F79E128B9505C005612AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68D526B028B9459400C5FE25 /* AirthmeticOperation */;
-			targetProxy = 682F79E028B9505C005612AC /* PBXContainerItemProxy */;
-		};
-		682F79E628B950A5005612AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68D526B028B9459400C5FE25 /* AirthmeticOperation */;
-			targetProxy = 682F79E528B950A5005612AC /* PBXContainerItemProxy */;
-		};
-		68D526BD28B9459400C5FE25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68D526B028B9459400C5FE25 /* AirthmeticOperation */;
-			targetProxy = 68D526BC28B9459400C5FE25 /* PBXContainerItemProxy */;
-		};
-		68D526BF28B9459400C5FE25 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6808209C266FD12000A6EA08 /* JenkinsPipeline */;
-			targetProxy = 68D526BE28B9459400C5FE25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -769,128 +561,6 @@
 			};
 			name = Release;
 		};
-		68D526C928B9459400C5FE25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = NRY5XK28ZC;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manju.AirthmeticOperation;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		68D526CA28B9459400C5FE25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = NRY5XK28ZC;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = mh_dylib;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manju.AirthmeticOperation;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		68D526CD28B9459400C5FE25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manju.AirthmeticOperationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsPipeline.app/JenkinsPipeline";
-			};
-			name = Debug;
-		};
-		68D526CE28B9459400C5FE25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manju.AirthmeticOperationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenkinsPipeline.app/JenkinsPipeline";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -926,24 +596,6 @@
 			buildConfigurations = (
 				680820CE266FD12100A6EA08 /* Debug */,
 				680820CF266FD12100A6EA08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		68D526C828B9459400C5FE25 /* Build configuration list for PBXNativeTarget "AirthmeticOperation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68D526C928B9459400C5FE25 /* Debug */,
-				68D526CA28B9459400C5FE25 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		68D526CC28B9459400C5FE25 /* Build configuration list for PBXNativeTarget "AirthmeticOperationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68D526CD28B9459400C5FE25 /* Debug */,
-				68D526CE28B9459400C5FE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
